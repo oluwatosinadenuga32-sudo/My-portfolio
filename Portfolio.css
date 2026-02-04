@@ -13,7 +13,6 @@ body{
     transform: translateY(20px);
     opacity: 0;
     animation: enter 0.6s ease-out forwards;
-    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -35,6 +34,7 @@ html{
     background-image: url(/e815b2cc-d45a-4434-98fb-9068560663f7.jpg);
     background-size: cover;
     background-position: center;
+    
 }
 
 .logo{
@@ -305,7 +305,7 @@ h1 span {
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 30px;
 }
 
@@ -528,7 +528,7 @@ form input, form textarea{
     align-items: center;
     padding: 60px 100px;
     text-align: center;
-    background-color: #262626;
+    background-color: #080808;
     color: white;
 }
 
@@ -588,7 +588,6 @@ form input, form textarea{
     
     #header{
         background-image: url(/e4ab712f-3eab-4d81-a8e3-c6afecc8fbaf.jpg);
-        /* height: auto; */
         background-position: center;
         background-size: cover;
         background-position: center;
@@ -770,11 +769,21 @@ form input, form textarea{
     grid-template-columns: 1fr;
     gap: 20px;
     text-align:center;
+     padding: 30px 0;
   }
   .hire2{
     text-align: center;
-
   }
+  .card {
+   grid-template-columns: 1fr;
+   gap: 20px;
+}
+
+
+.whyChoose{ 
+    width: 100%;
+    padding: 30px 0;
+}
 }
 
 
